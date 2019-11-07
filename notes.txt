@@ -1,0 +1,10 @@
+Culture dropping off the people has different requirements for each campaign, this determines the path of the campaign.
+
+Families can found their own smaller settlemetns and own their tiles on the map; this is how they can have their own individual scoring. Each settlement generates its own resources, and the player that owns them has the final say on how any resources are spent. Families can use subterfuge to try to take ownership of other Players tiles and settlements. Players can also co-own tiles or settlements according to their agreements.
+
+Quick combat system: Unit cards with corresponding die types. To fight, roll dice and apply modifiers/effects. Winner wins, loser dies. Effects can be from many sources, applied as needed. Each unit type should only have 3-5 allowed in a fight. Feel is squad based elite fireteams fighting instead of armies.
+
+Diplomacy with independent settlements: three track, hostile/neutral/friendly. If conquer, go to friendly. If neutral, can trade according to card. If friendly, simply generates resources for free. 
+
+Each campaign milestone has a list of optional objectives. Each one gives a choice when accomplished, and each choice affects the culture of the civilization and gives a benefit.
+
