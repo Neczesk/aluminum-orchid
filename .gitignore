@@ -240,3 +240,6 @@ TSWLatexianTemp*
 
 # generated if using elsarticle.cls
 *.spl
+
+# Comment the next line if you want to add the pdfs to the repo. I won't be doing this until the game is much closer to release if it ever gets that far.
+*.pdf

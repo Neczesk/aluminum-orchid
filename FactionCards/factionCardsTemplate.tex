@@ -1,0 +1,81 @@
+\documentclass[12pt]{extarticle}
+
+\title{Master Faction Cards}
+\date{2019-11-06}
+\author{Kyle Haltermann}
+
+%Packages Necessary
+\usepackage{tikz}
+\usepackage{extsizes}
+\usepackage[defaultsans]{droidsans}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
+\usepackage[T1]{fontenc}
+
+
+\usepackage{pgffor, ifthen}
+\newcommand{\notes}[3][\empty]{%
+    \noindent Notes\vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
+
+\pagestyle{empty}
+
+\topmargin       0in
+\oddsidemargin   0in
+\evensidemargin  0in
+\headheight      0in
+\headsep         0in
+\topskip         0in
+\textheight      9in
+\textwidth       6.5in
+\begin{document}
+	\begin{center}
+		\huge Faction Name
+	\end{center}
+	\parbox{\textwidth}{\normalsize \input{FactionDescriptions/loremipsum.tex}\par}
+	
+	\begin{center}\large
+		\textbf{Basic Information}
+	\end{center}
+    \begin{center}
+        \huge
+        \begin{tabular}[c]{|lrlr|}
+        \hline
+            \textsc{Reputation:} & \tikz[baseline=-1] \draw (0,-.5) rectangle (2,.8); & \textsc{Workers:} & \tikz[baseline=-1] \draw (0,-.5) rectangle (2,.8);\\
+            \textsc{Militia:} & \tikz[baseline=-1] \draw (0,-.5) rectangle (2,.8); & \textsc{Satisfaction:} & \tikz[baseline=-1] \draw (0,-.5) rectangle (2,.8);\\
+        \hline
+        \end{tabular}
+    \end{center}
+    \begin{center}\large \textbf{Faction Characters} \end{center}
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    Name: \rule{3cm}{.4pt} Age: \rule{1cm}{.4pt} Type:\hrulefill\\
+    \begin{center}\large \textbf{Faction Notes} \end{center}
+    \notes{14}{\textwidth}
+    
+    \newpage
+    \begin{center}\huge \textbf{Development Actions} \end{center}
+    \large \textbf{Build Structure:}
+    \small\paragraph{}\input{FactionRules/buildstructure.tex}\par
+    \bigskip
+    \noindent\large \textbf{Create Institution:}
+    \small\paragraph{}\input{FactionRules/createinstitution.tex}\par
+    \bigskip
+    \noindent\large \textbf{Raise Militia:}
+    \small\paragraph{}\input{FactionRules/raisemilitia.tex}\par
+    \bigskip
+    \noindent\large \textbf{Ability 4:}
+    \small\paragraph{}Ability 4\input{FactionRules/loremipsum.tex}\par
+    \bigskip
+    \noindent\large \textbf{Ability 5:}
+    \small\paragraph{}Ability 5\input{FactionRules/loremipsum.tex}\par
+    \bigskip
+\end{document}
