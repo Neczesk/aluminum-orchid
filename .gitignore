@@ -243,3 +243,9 @@ TSWLatexianTemp*
 
 # Comment the next line if you want to add the pdfs to the repo. I won't be doing this until the game is much closer to release if it ever gets that far.
 *.pdf
+
+#Ignoring the generated .tex files
+BlackRobesFactionCard.tex
+WhiteRobesFactionCard.tex
+LaborersFactionCard.tex
+GuildsFactionCard.tex
