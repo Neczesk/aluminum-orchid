@@ -1,0 +1,16 @@
+ 
+{
+	"Building": {
+		"Name":"Forge",
+		"Flavor": "The Forge takes in the raw elements of industry and turns them into the trappings of higher civilization. Particularly those trappings that kill things.",
+		"Picture": "forge.jpg",
+		"Cost": {
+			"Wood": 1,
+			"Steel": 2,
+			"Stone": 1
+		},
+		"RequirementsText": "The Forge must be built In Supply.",
+		"EffectLongText": "The Forge can be activated with the Craft Gear Development Action by the Guilds Player. Once activated, any amount of Gear Cards can be created as long as the resource costs are paid. The Forge can craft any Gear Cards from the Forge Gear Deck. There are also Gear Decks that require activating the Forge as an additional requirement. When a Gear Card is made, it is immediately added to the Guilds Player's Inventory. From there the Guilds Player may give it to anyone they choose.",
+		"OtherEffects": "\\item{Crafts Gear from the Forge Deck}\n\\item{Required to Craft Gear from the Technoforge, the Cryptoworkshop, and the Skycarpentry.}\n"
+	}
+}

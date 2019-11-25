@@ -1,0 +1,17 @@
+ {
+	"Building": {
+		"Name":"Mine",
+		"Flavor": "The mines are where humankind tears the iron bones of the earth from out of its flesh, in order to create weapons to force the workers to dig more iron from the ground.",
+		"Picture": "mine.jpg",
+		"Cost": {
+			"Wood": 1,
+			"Steel": 0,
+			"Stone": 1,
+			"Aetherium": 0,
+			"Phlogiston": 0
+		},
+		"RequirementsText": "Mines can only be built on tiles with the \\textit{iron} keyword. The mine must also be In Supply.",
+		"EffectLongText": "Each worker assigned to work at the mine produces 3 iron.",
+		"OtherEffects": "\\item{At least one mine must be built before a shaft mine can be built}\n"
+	}
+}

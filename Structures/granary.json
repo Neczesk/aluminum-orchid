@@ -1,0 +1,18 @@
+ {
+	"Building": {
+		"Name":"Granary",
+		"Flavor": "Where the fruits of the farmers labored are gathered, dried, and stored. Occasionally goes up in extremely impressive balls of flame",
+		"Picture": "granary.jpg",
+		"Cost": {
+			"Wood": 2,
+			"Steel": 0,
+			"Stone": 0,
+			"Aetherium": 0,
+			"Phlogiston": 0
+		},
+		"RequirementsText": "No prerequisites",
+		"EffectLongText": "Increases the storage capacity of Food by +10 for each Granary built.",
+		"OtherEffects": "\\item{No other effects}\n"
+	}
+}
+ 

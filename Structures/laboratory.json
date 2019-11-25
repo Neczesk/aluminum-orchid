@@ -1,0 +1,17 @@
+ 
+{
+	"Building": {
+		"Name":"Laboratory",
+		"Flavor": "Where the greatest minds of civilization gather to learn, teach, debate, and fill out grant requests for further funding for their new studies.",
+		"Picture": "laboratory.jpg",
+		"Cost": {
+			"Wood": 1,
+			"Steel": 0,
+			"Stone": 1,
+			"Aetherium": 1
+		},
+		"RequirementsText": "No prerequisites",
+		"EffectLongText": "Hello World",
+		"OtherEffects": "\\item{Yep, still just researches things}"
+	}
+}
